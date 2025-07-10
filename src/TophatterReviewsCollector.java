@@ -13,11 +13,11 @@ public class TophatterReviewsCollector extends ReviewsCollector{
 //	}
 	
 	public void collectReviewsOfBid(){
-		super.collectReviewsOf("bid", 3);
+		super.collectReviewsOf("bid", 317);
 	}
 	
 	public void collectReviewsOfAuction(){
-		collectReviewsOf("auction", 3);
+		collectReviewsOf("auction", 27);
 	}
 	
 	public void collectReviewsOfBadge(){
@@ -25,6 +25,32 @@ public class TophatterReviewsCollector extends ReviewsCollector{
 	}
 	
 	public void collectReviewsOfReward(){
-		collectReviewsOf("reward", 3);
+		collectReviewsOf("reward", 1);
+	}
+	
+	public void collectReviewsOfCredit(){
+		collectReviewsOf("credit", 10);
+	}
+	
+	public void collectReviewsOfWheel(){
+		collectReviewsOf("wheel", 1);
+	}
+	
+	public void collectReviewsOfReview(){
+		collectReviewsOf("review", 8);
+	}
+	
+	public void collectReviewsOfRefer(){
+		collectReviewsOf("refer", 2);
+	}
+	public void collectReviewsOfFeedback(){
+		collectReviewsOf("feedback", 4);
+	}
+	public void collectReviewsOfRate(){
+		collectReviewsOf("rate", 16);
+	}
+	
+	public void collectReviewsOfShare(){
+		collectReviewsOf("share", 2);
 	}
 }

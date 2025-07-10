@@ -22,12 +22,53 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		TophatterReviewsCollector tophatter = new TophatterReviewsCollector();
-//		tophatter.collectReviewsOfBadge();
-		
 		EbayReviewsCollector ebay = new EbayReviewsCollector();
-		ebay.collectReviewsOfBid();
+//		ebay.collectReviewsOfBid();
+//		ebay.collectReviewsOfAuction();
+//		ebay.collectReviewsOfRating();
+//		ebay.collectReviewsOffFeedback();
+//		ebay.collectReviewsOffOffer();
+//		ebay.collectReviewsOffTopRated();
+//		ebay.collectReviewsOffPowerSeller();
+//		ebay.collectReviewsOffPowerBucks();
 		
+		TophatterReviewsCollector tophatter = new TophatterReviewsCollector();
+//		tophatter.collectReviewsOfBid();
+//		tophatter.collectReviewsOfAuction();
+//		tophatter.collectReviewsOfBadge();
+//		tophatter.collectReviewsOfCredit();
+//		tophatter.collectReviewsOfReward();
+//		tophatter.collectReviewsOfBadge();
+//		tophatter.collectReviewsOfWheel();
+//		tophatter.collectReviewsOfReview();
+//		tophatter.collectReviewsOfRefer();
+//		tophatter.collectReviewsOfFeedback();
+//		tophatter.collectReviewsOfRate();
+//		tophatter.collectReviewsOfShare();
+		
+		WishReviewsCollector wish = new WishReviewsCollector();
+//		wish.collectReviewsOfPoints();
+//		wish.collectReviewsOfReward();
+//		wish.collectReviewsOfWheel();
+//		wish.collectReviewsOfBlitzBuy();
+//		wish.collectReviewsOfRefferal();
+//		wish.collectReviewsOfWishlist();
+//		wish.collectReviewsOfFollow();
+//		wish.collectReviewsOfDeal();
+//		wish.collectReviewsOfRefer();
+//		wish.collectReviewsOfRate();
+//		wish.collectReviewsOfFeedback();
+		
+		SheinReviewsCollector shein = new SheinReviewsCollector();
+//		shein.collectReviewsOfPoints();
+//		shein.collectReviewsOfRewards();
+//		shein.collectReviewsOfCoupons();
+//		shein.collectReviewsOfWishlist();
+//		shein.collectReviewsOfFollow();
+//		shein.collectReviewsOfBestSeller();
+//		shein.collectReviewsOfShare();
+//		shein.collectReviewsOfRefer();
+
 	}
 
 }

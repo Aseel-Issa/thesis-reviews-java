@@ -1,6 +1,4 @@
-tophatter-auction.json
-tophatter-badge.json
-eBay-bid.json
-tophatterReviews.json
-hs_err_pid19384.log
+*.json
+*.log
 /bin
+src/GoogleSearch.java
